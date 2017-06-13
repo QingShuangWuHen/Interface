@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test_Interface(failed)" parallel="classes">
+    <classes>
+      <class name="com.zzy.Interface.Test_Interface">
+        <methods>
+          <include name="test_method"/>
+        </methods>
+      </class> <!-- com.zzy.Interface.Test_Interface -->
+    </classes>
+  </test> <!-- Test_Interface(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test_Interface"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.783">
+  <properties />
+  
+  
+            <testcase name="test_method" time="0.149" classname="com.zzy.Interface.Test_Interface" />
+                <testcase name="test_method" time="0.003" classname="com.zzy.Interface.Test_Interface" />
+                <testcase name="test_method" time="0.631" classname="com.zzy.Interface.Test_Interface" />
+      
+</testsuite>
